@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "llmcommand",
+  "version": "${version}",
+  "name": "LLM Command Mod",
+  "description": "A Minecraft mod that allows players to interact with LLMs like OpenAI and Anthropic through a custom command.",
+  "authors": ["Your Name"],
+  "contact": {
+    "homepage": "https://github.com/yourusername/llmcommand",
+    "sources": "https://github.com/yourusername/llmcommand"
+  },
+  "license": "MIT",
+  "icon": "assets/llmcommand/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["minecraft.llm.LLMCommandMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "fabric-api": "*",
+    "minecraft": "~1.21.5",
+    "java": ">=17"
+  }
+}
